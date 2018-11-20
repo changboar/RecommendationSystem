@@ -12,10 +12,8 @@ public class DBConnectionFactory {
 		switch (db) {
 		case "mysql":
 			return new MySQLConnection();
-			// return null;
 		case "mongodb":
 			return new MongoDBConnection();
-//			return null;
 		default:
 			throw new IllegalArgumentException("Invalid db:" + db);
 		}
