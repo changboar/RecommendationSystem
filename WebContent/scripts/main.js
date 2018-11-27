@@ -29,9 +29,9 @@
 		// name : 'John Smith'
 		// });
         
-//        var welcomeMsg = $('welcome-msg');
-//        welcomeMsg.innerHTML = 'Welcome, ' + user_fullname;
-//        initGeoLocation();
+        var welcomeMsg = $('welcome-msg');
+        welcomeMsg.innerHTML = 'Welcome, ' + user_fullname;
+        initGeoLocation();
     }
     
 	/**
